@@ -72,50 +72,50 @@ if (gamepad_is_connected(0)) {
     rdown = MatchCardinalDirection(rs_angle, rs_magnitude, Directions.south);
     rleft = MatchCardinalDirection(rs_angle, rs_magnitude, Directions.west);
     rright = MatchCardinalDirection(rs_angle, rs_magnitude, Directions.east);
-} else {
-    // The keyboard can gather exact input directly from the keyboard, since all button checks are the same
-    ls_x = -keyboard_check_direct(ord("A")) + keyboard_check_direct(ord("D"));
-    ls_y = -keyboard_check_direct(ord("W")) + keyboard_check_direct(ord("S"));
-    // Don't need tolerance checks here because keyboard checks are binary.
-    ls_angle = GetStickAngle(ls_x, ls_y);
-    up = MatchCardinalDirection(ls_angle, ls_y, Directions.north);
-    down = MatchCardinalDirection(ls_angle, ls_y, Directions.south);
-    left = MatchCardinalDirection(ls_angle, ls_x, Directions.west);
-    right = MatchCardinalDirection(ls_angle, ls_x, Directions.east);
-    a = (keyboard_check_direct(ord("E")) || mouse_check_button(mb_left));
-    b = (keyboard_check_direct(ord("F")) || mouse_check_button(mb_right));
-    x = keyboard_check_direct(ord("R"));
-    y = keyboard_check_direct(vk_space);
-    start = keyboard_check_direct(vk_escape);
-    select = keyboard_check_direct(vk_backspace);
-    l= keyboard_check_direct(vk_lcontrol) || mouse_wheel_up();
-    r= keyboard_check_direct(vk_rcontrol) || mouse_wheel_down();
-    l2= keyboard_check_direct(vk_lshift);
-    r2= keyboard_check_direct(vk_rshift);
-    ls= (keyboard_check_direct(vk_lalt) || mouse_check_button(mb_middle));
-    rs= keyboard_check_direct(vk_ralt);
-    var _u = -keyboard_check_direct(vk_left) + keyboard_check_direct(vk_right);
-    var _r = -keyboard_check_direct(vk_up) + keyboard_check_direct(vk_down);
-    dpad_angle = GetStickAngle(_u, _r);
-    pup = MatchCardinalDirection(dpad_angle, _r, Directions.north);
-    pdown = MatchCardinalDirection(dpad_angle, _r, Directions.south);
-    pleft = MatchCardinalDirection(dpad_angle, _u, Directions.west);
-    pright = MatchCardinalDirection(dpad_angle, _u, Directions.east);
-    rs_x = clamp((window_mouse_get_x() - window_get_width() / 2) / 10, -1, 1);
-    rs_y = clamp((window_mouse_get_y() - window_get_height() / 2) / 10, -1, 1);
-    centerCursor();
-    if (invert_y) rs_y = -rs_y;
-    if (invert_x) rs_x = -rs_x;
-    rs_angle = GetStickAngle(rs_x, rs_y);
-    rs_magnitude = GetStickMagnitude(rs_x, rs_y);
-    rup = MatchCardinalDirection(rs_angle, rs_magnitude, Directions.north);
-    rdown = MatchCardinalDirection(rs_angle, rs_magnitude, Directions.south);
-    rleft = MatchCardinalDirection(rs_angle, rs_magnitude, Directions.west);
-    rright = MatchCardinalDirection(rs_angle, rs_magnitude, Directions.east);
-    // "stick" magnitudes are a binary 1 or 0 with keyboard controls,
-    // since you can't partially press a key.
-    ls_magnitude = (up || down || left || right);
 }
+
+// The keyboard can gather exact input directly from the keyboard, since all button checks are the same
+ls_x = ls_x - keyboard_check_direct(ord("A")) + keyboard_check_direct(ord("D"));
+ls_y = ls_y - keyboard_check_direct(ord("W")) + keyboard_check_direct(ord("S"));
+// Don't need tolerance checks here because keyboard checks are binary.
+ls_angle = ls_angle + GetStickAngle(ls_x, ls_y);
+up = up || MatchCardinalDirection(ls_angle, ls_y, Directions.north);
+down = down || MatchCardinalDirection(ls_angle, ls_y, Directions.south);
+left = left || MatchCardinalDirection(ls_angle, ls_x, Directions.west);
+right = right || MatchCardinalDirection(ls_angle, ls_x, Directions.east);
+a = a || (keyboard_check_direct(ord("E")) || mouse_check_button(mb_left));
+b = b || (keyboard_check_direct(ord("F")) || mouse_check_button(mb_right));
+x = x || keyboard_check_direct(ord("R"));
+y = y || keyboard_check_direct(vk_space);
+start = start || keyboard_check_direct(vk_escape);
+select = select || keyboard_check_direct(vk_backspace);
+l = l || keyboard_check_direct(vk_lcontrol) || mouse_wheel_up();
+r = r || keyboard_check_direct(vk_rcontrol) || mouse_wheel_down();
+l2 = l2 || keyboard_check_direct(vk_lshift);
+r2 = r2 || keyboard_check_direct(vk_rshift);
+ls = ls || (keyboard_check_direct(vk_lalt) || mouse_check_button(mb_middle));
+rs = rs || keyboard_check_direct(vk_ralt);
+var _u = -keyboard_check_direct(vk_left) + keyboard_check_direct(vk_right);
+var _r = -keyboard_check_direct(vk_up) + keyboard_check_direct(vk_down);
+dpad_angle = dpad_angle + GetStickAngle(_u, _r);
+pup = pup || MatchCardinalDirection(dpad_angle, _r, Directions.north);
+pdown = pdown || MatchCardinalDirection(dpad_angle, _r, Directions.south);
+pleft = pleft || MatchCardinalDirection(dpad_angle, _u, Directions.west);
+pright = pright || MatchCardinalDirection(dpad_angle, _u, Directions.east);
+rs_x = rs_x + clamp((window_mouse_get_x() - window_get_width() / 2) / 10, -1, 1);
+rs_y = rs_y + clamp((window_mouse_get_y() - window_get_height() / 2) / 10, -1, 1);
+centerCursor();
+if (invert_y) rs_y = -rs_y;
+if (invert_x) rs_x = -rs_x;
+rs_angle = rs_angle + GetStickAngle(rs_x, rs_y);
+rs_magnitude = rs_magnitude + GetStickMagnitude(rs_x, rs_y);
+rup = rup || MatchCardinalDirection(rs_angle, rs_magnitude, Directions.north);
+rdown = rdown || MatchCardinalDirection(rs_angle, rs_magnitude, Directions.south);
+rleft = rleft || MatchCardinalDirection(rs_angle, rs_magnitude, Directions.west);
+rright = rright || MatchCardinalDirection(rs_angle, rs_magnitude, Directions.east);
+// "stick" magnitudes are a binary 1 or 0 with keyboard controls,
+// since you can't partially press a key.
+ls_magnitude = (up || down || left || right);
 
 if (abs(ls_x) < 0.1) ls_x = 0;
 if (abs(ls_y) < 0.1) ls_y = 0;
