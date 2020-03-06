@@ -35,6 +35,39 @@ last_pright = pright;
 last_start = start;
 last_select = select;
 
+ls_x = 0;
+ls_y = 0;
+ls_angle = 0;
+ls_magnitude = 0;
+up = false;
+down = false;
+left = false;
+right = false;
+a = false;
+b = false;
+x = false;
+y = false;
+start = false;
+select = false;
+l = false;
+r = false;
+l2 = false;
+r2 = false;
+ls = false;
+rs = false;
+pup = false;
+pdown = false;
+pleft = false;
+pright = false;
+rs_x = 0;
+rs_y = 0;
+rs_angle = 0;
+rs_magnitude = 0;
+rup = 0;
+rdown = 0;
+rleft = 0;
+rright = 0;
+    
 if (gamepad_is_connected(0)) {
     // If controller, gather raw input first. Can't be done all in one call because different buttons have
     // different functions to check them.
@@ -103,10 +136,10 @@ pdown = pdown || MatchCardinalDirection(dpad_angle, _r, Directions.south);
 pleft = pleft || MatchCardinalDirection(dpad_angle, _u, Directions.west);
 pright = pright || MatchCardinalDirection(dpad_angle, _u, Directions.east);
 rs_x = rs_x + clamp((window_mouse_get_x() - window_get_width() / 2) / 10, -1, 1);
-rs_y = rs_y + clamp((window_mouse_get_y() - window_get_height() / 2) / 10, -1, 1);
+rs_y = rs_y - clamp((window_mouse_get_y() - window_get_height() / 2) / 10, -1, 1);
 centerCursor();
 rs_angle = rs_angle + GetStickAngle(rs_x, rs_y);
-rs_magnitude = rs_magnitude + GetStickMagnitude(rs_x, rs_y);
+rs_magnitude = min(rs_magnitude + GetStickMagnitude(rs_x, rs_y), 1);
 rup = rup || MatchCardinalDirection(rs_angle, rs_magnitude, Directions.north);
 rdown = rdown || MatchCardinalDirection(rs_angle, rs_magnitude, Directions.south);
 rleft = rleft || MatchCardinalDirection(rs_angle, rs_magnitude, Directions.west);
@@ -176,6 +209,3 @@ release_pleft = last_pleft && (!pleft);
 release_pright = last_pright && (!pright);
 release_start = last_start && (!start);
 release_select = last_select && (!select);
-
-if (press_l) invert_x = !invert_x;
-if (press_r) invert_y = !invert_y;
