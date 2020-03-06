@@ -22,19 +22,19 @@ d3d_model_load(s_neptune, ".\\neptune.d3d");
 s_saturn = d3d_model_create();
 d3d_model_load(s_saturn, ".\\saturn.d3d");
 
-tex_yellow = background_get_texture(b_yellow);
-tex_red = background_get_texture(b_red);
-tex_blue = background_get_texture(b_blue);
-tex_ltblue = background_get_texture(b_ltblue);
+tex_yellow = sprite_get_texture(b_yellow, 0);
+tex_red = sprite_get_texture(b_red, 0);
+tex_blue = sprite_get_texture(b_blue, 0);
+tex_ltblue = sprite_get_texture(b_ltblue, 0);
 
-tex_mercury = background_get_texture(b_mercury);
-tex_venus = background_get_texture(b_venus);
-tex_earth = background_get_texture(b_earth);
-tex_mars = background_get_texture(b_mars);
-tex_jupiter = background_get_texture(b_jupiter);
-tex_saturn = background_get_texture(b_saturn);
-tex_uranus = background_get_texture(b_uranus);
-tex_neptune = background_get_texture(b_neptune);
+tex_mercury = sprite_get_texture(b_mercury, 0);
+tex_venus = sprite_get_texture(b_venus, 0);
+tex_earth = sprite_get_texture(b_earth, 0);
+tex_mars = sprite_get_texture(b_mars, 0);
+tex_jupiter = sprite_get_texture(b_jupiter, 0);
+tex_saturn = sprite_get_texture(b_saturn, 0);
+tex_uranus = sprite_get_texture(b_uranus, 0);
+tex_neptune = sprite_get_texture(b_neptune, 0);
 
 enum Directions {
     east            = 0,
