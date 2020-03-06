@@ -9,7 +9,7 @@
 
 // 50,000,000 km is one pixel unit
 
-var p = instance_create(argument1 * 15, 0, Planet);
+var p = instance_create_depth(argument1 * 15, 0, 0, Planet);
 p.distance = p.x;
 p.name = argument0;
 p.year = argument2 * 86400; // seconds in year
