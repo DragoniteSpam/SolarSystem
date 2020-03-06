@@ -1,6 +1,29 @@
 /// @param angle
 /// @param magnitude
 /// @param dir
+// there's probably a constant-time way to do this but i don't
+// really care enough to spend time finding it
 
-if (abs(argument1) < 0.2) return -1;
-return ((argument0 + 360) > (argument2 + 315) && (argument0 + 360) <= (argument2 + 405));
+var angle = argument0;
+var magnitude = argument1;
+var dir = argument2;
+
+if (angle < 0) {
+    return false;
+}
+
+if (abs(magnitude) < 0.2) {
+    return false;
+}
+
+if (angle >= dir - 45 && angle <= dir + 45) {
+    return true;
+}
+
+if (magnitude - 45 < 0) {
+    if (angle >= dir + 315 && angle <= dir + 405) {
+        return true;
+    }
+}
+
+return false;
