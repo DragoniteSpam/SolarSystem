@@ -1,4 +1,3 @@
-var angle=degtorad(SolarSystem.t*360/year);
-x=distance*cos(angle);
-y=-distance*sin(angle);
-
+var angle = SolarSystem.t * 360 / year;
+x = distance * dcos(angle);
+y = -distance * dsin(angle);

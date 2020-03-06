@@ -9,4 +9,3 @@ d3d_model_draw(stars, 0, 0, 0, -1);
 
 d3d_set_lighting(true);
 d3d_transform_set_identity();
-
