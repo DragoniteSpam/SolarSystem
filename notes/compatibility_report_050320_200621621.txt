@@ -1,0 +1,83 @@
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\scripts\GetStickAngle\GetStickAngle.gml
+Converted description /// @description  double GetStickAngle(r, u);/// @param r
+/// @param  u
+
+Converting GML script: ${project_dir}\scripts\GetStickMagnitude\GetStickMagnitude.gml
+Converted description /// @description  double GetStickMagnitude(r, u);/// @param r
+/// @param  u
+
+Converting GML script: ${project_dir}\scripts\MatchCardinalDirection\MatchCardinalDirection.gml
+Converted description /// @description  double MatchCardinalDirection(angle, magnitude, dir);/// @param angle
+/// @param  magnitude
+/// @param  dir
+
+Converting GML script: ${project_dir}\scripts\new_planet\new_planet.gml
+Converted description /// @description  Planet new_planet(name, distance in AU, days in year, days in day, radius, tilt, model, texture);/// @param name
+/// @param  distance in AU
+/// @param  days in year
+/// @param  days in day
+/// @param  radius
+/// @param  tilt
+/// @param  model
+/// @param  texture
+
+Converting GML script: ${project_dir}\objects\SolarSystem\Create_0.gml
+Converted string - line 13: ".\starbox.d3d" -> ".\\starbox.d3d"
+Converted string - line 16: ".\sphere.d3d" -> ".\\sphere.d3d"
+Converted string - line 19: ".\jupiter.d3d" -> ".\\jupiter.d3d"
+Converted string - line 22: ".\neptune.d3d" -> ".\\neptune.d3d"
+Converted string - line 25: ".\saturn.d3d" -> ".\\saturn.d3d"
+
+Converting GML script: ${project_dir}\objects\Controller\Step_1.gml
+Converted string - line 79: 'A' -> "A"
+Converted string - line 79: 'D' -> "D"
+Converted string - line 80: 'W' -> "W"
+Converted string - line 80: 'S' -> "S"
+Converted string - line 87: 'E' -> "E"
+Converted string - line 88: 'F' -> "F"
+Converted string - line 89: 'R' -> "R"
+
+Game speed set to 30
+Added compatibility script 'background/background_get_texture.gml'
+Added compatibility script 'd3d/d3d_light_define_direction.gml'
+Added compatibility script 'd3d/d3d_light_enable.gml'
+Added compatibility script 'd3d/d3d_model_create.gml'
+Added compatibility script 'd3d/d3d_model_draw.gml'
+Added compatibility script 'd3d/d3d_model_load.gml'
+Added compatibility script 'd3d/d3d_model_primitive_begin.gml'
+Added compatibility script 'd3d/d3d_model_primitive_end.gml'
+Added compatibility script 'd3d/d3d_model_vertex.gml'
+Added compatibility script 'd3d/d3d_model_vertex_color.gml'
+Added compatibility script 'd3d/d3d_model_vertex_normal.gml'
+Added compatibility script 'd3d/d3d_model_vertex_normal_color.gml'
+Added compatibility script 'd3d/d3d_model_vertex_normal_texture.gml'
+Added compatibility script 'd3d/d3d_model_vertex_normal_texture_color.gml'
+Added compatibility script 'd3d/d3d_model_vertex_texture.gml'
+Added compatibility script 'd3d/d3d_model_vertex_texture_color.gml'
+Added compatibility script 'd3d/d3d_model_wall.gml'
+Added compatibility script 'd3d/d3d_set_culling.gml'
+Added compatibility script 'd3d/d3d_set_hidden.gml'
+Added compatibility script 'd3d/d3d_set_lighting.gml'
+Added compatibility script 'd3d/d3d_set_projection.gml'
+Added compatibility script 'd3d/d3d_start.gml'
+Added compatibility script 'd3d/d3d_transform_add_rotation_x.gml'
+Added compatibility script 'd3d/d3d_transform_add_rotation_y.gml'
+Added compatibility script 'd3d/d3d_transform_add_rotation_z.gml'
+Added compatibility script 'd3d/d3d_transform_add_translation.gml'
+Added compatibility script 'd3d/d3d_transform_set_identity.gml'
+Added compatibility script 'd3d/d3d_transform_set_scaling.gml'
+Added compatibility script 'd3d/__d3d_model_add_vertex.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'd3d/d3d_model_block.gml'
+Added compatibility script 'd3d/d3d_model_clear.gml'
+Added compatibility script 'd3d/d3d_model_cone.gml'
+Added compatibility script 'd3d/d3d_model_cylinder.gml'
+Added compatibility script 'd3d/d3d_model_ellipsoid.gml'
+Added compatibility script 'd3d/d3d_model_floor.gml'
+Added compatibility script '__global_object_depths.gml'
