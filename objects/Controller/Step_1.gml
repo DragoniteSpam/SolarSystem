@@ -105,8 +105,6 @@ pright = pright || MatchCardinalDirection(dpad_angle, _u, Directions.east);
 rs_x = rs_x + clamp((window_mouse_get_x() - window_get_width() / 2) / 10, -1, 1);
 rs_y = rs_y + clamp((window_mouse_get_y() - window_get_height() / 2) / 10, -1, 1);
 centerCursor();
-if (invert_y) rs_y = -rs_y;
-if (invert_x) rs_x = -rs_x;
 rs_angle = rs_angle + GetStickAngle(rs_x, rs_y);
 rs_magnitude = rs_magnitude + GetStickMagnitude(rs_x, rs_y);
 rup = rup || MatchCardinalDirection(rs_angle, rs_magnitude, Directions.north);
