@@ -8,5 +8,3 @@ shader_set_uniform_f(shader_get_uniform(shd_sun, "time"), current_time / 1000, c
 vertex_submit(sphere, pr_trianglelist, sprite_get_texture(spr_sun, 0));
 shader_reset();
 matrix_set(matrix_world, matrix_build_identity());
-
-vertex_submit(stars, pr_trianglelist, -1);
