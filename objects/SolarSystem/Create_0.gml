@@ -7,7 +7,6 @@ vertex_format_add_texcoord();
 vertex_format_add_color();
 vertex_format = vertex_format_end();
 
-gpu_set_cullmode(cull_clockwise);
 gpu_set_ztestenable(true);
 gpu_set_zwriteenable(true);
 

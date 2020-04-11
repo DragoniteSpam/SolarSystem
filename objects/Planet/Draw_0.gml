@@ -3,8 +3,8 @@
 // Venus' cases
 
 var d = SolarSystem.t * 3.6 / day;
-var matrix = matrix_build(0, 0, 0, 0, 0, d, radius, radius, radius);
-matrix = matrix_multiply(matrix, matrix_build(0, 0, 0, tilt, tilt, 0, 1, 1, 1));
+var matrix = matrix_build(0, 0, 0, 0, 0, d, radius, radius, -radius);
+matrix = matrix_multiply(matrix, matrix_build(0, 0, 0, tilt, 0, 0, 1, 1, 1));
 matrix = matrix_multiply(matrix, matrix_build(x, y, z, 0, 0, 0, 1, 1, 1));
 matrix_set(matrix_world, matrix);
 vertex_submit(model, pr_trianglelist, texture);
