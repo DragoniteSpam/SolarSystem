@@ -319,14 +319,6 @@
             }
         },
         {
-            "Key": "6f642d05-eb8d-4e7a-ab27-d92079a88237",
-            "Value": {
-                "id": "8afbe8af-a734-47b4-b627-5e65ad6e0fe2",
-                "resourcePath": "sprites\\b_ltblue\\b_ltblue.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7bd5689b-a9ce-4dfa-971b-fe05d24c88ee",
             "Value": {
                 "id": "30e212ab-f1c8-4eb6-932c-55c4ff9828bd",
@@ -404,14 +396,6 @@
                 "id": "55e61694-51df-409c-b2fd-50d4732d9524",
                 "resourcePath": "scripts\\@d3d_model_draw\\d3d_model_draw.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "9ece088b-f6ca-4262-a905-38a1722c0a5e",
-            "Value": {
-                "id": "80ebf527-2026-414c-8892-7eb7304b1c26",
-                "resourcePath": "sprites\\b_red\\b_red.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -612,14 +596,6 @@
                 "id": "c98e613d-7c11-43af-b75f-3ea9ff6e63c5",
                 "resourcePath": "scripts\\@d3d_model_vertex_color\\d3d_model_vertex_color.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "e69f305e-9fb0-4484-894a-18aae1d78e7a",
-            "Value": {
-                "id": "bc48e6d2-f669-4d69-b7a2-7fda49b46df8",
-                "resourcePath": "sprites\\b_blue\\b_blue.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

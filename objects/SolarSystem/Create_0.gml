@@ -23,9 +23,6 @@ var b = buffer_load("saturn.dat");
 s_saturn = vertex_create_buffer_from_buffer(b, vertex_format);
 
 tex_yellow = sprite_get_texture(b_yellow, 0);
-tex_red = sprite_get_texture(b_red, 0);
-tex_blue = sprite_get_texture(b_blue, 0);
-tex_ltblue = sprite_get_texture(b_ltblue, 0);
 
 tex_mercury = sprite_get_texture(b_mercury, 0);
 tex_venus = sprite_get_texture(b_venus, 0);

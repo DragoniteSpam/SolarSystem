@@ -3,7 +3,7 @@
     "modelName": "GMSprite",
     "mvc": "1.12",
     "name": "b_uranus",
-    "For3D": false,
+    "For3D": true,
     "HTile": true,
     "VTile": true,
     "bbox_bottom": 255,
