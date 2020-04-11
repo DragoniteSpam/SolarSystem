@@ -2,7 +2,7 @@
     "id": "f623fa7b-0f55-4205-b752-664fa8f9ec85",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "b_earth",
+    "name": "planet_earth",
     "For3D": true,
     "HTile": true,
     "VTile": true,

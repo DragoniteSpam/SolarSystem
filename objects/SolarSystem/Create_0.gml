@@ -27,16 +27,14 @@ var b = buffer_load("saturn.dat");
 s_saturn = vertex_create_buffer_from_buffer(b, vertex_format);
 buffer_delete(b);
 
-tex_yellow = sprite_get_texture(b_yellow, 0);
-
-tex_mercury = sprite_get_texture(b_mercury, 0);
-tex_venus = sprite_get_texture(b_venus, 0);
-tex_earth = sprite_get_texture(b_earth, 0);
-tex_mars = sprite_get_texture(b_mars, 0);
-tex_jupiter = sprite_get_texture(b_jupiter, 0);
-tex_saturn = sprite_get_texture(b_saturn, 0);
-tex_uranus = sprite_get_texture(b_uranus, 0);
-tex_neptune = sprite_get_texture(b_neptune, 0);
+tex_mercury =   sprite_get_texture(planet_mercury, 0);
+tex_venus =     sprite_get_texture(planet_venus, 0);
+tex_earth =     sprite_get_texture(planet_earth, 0);
+tex_mars =      sprite_get_texture(planet_mars, 0);
+tex_jupiter =   sprite_get_texture(planet_jupiter, 0);
+tex_saturn =    sprite_get_texture(planet_saturn, 0);
+tex_uranus =    sprite_get_texture(planet_uranus, 0);
+tex_neptune =   sprite_get_texture(planet_neptune, 0);
 
 enum Directions {
     east            = 0,

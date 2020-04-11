@@ -58,7 +58,7 @@
             "Key": "127e00ba-5c40-44cc-8d5d-085b04f5be1b",
             "Value": {
                 "id": "f8092ae5-d160-41e1-b8c4-1d43e2e76b06",
-                "resourcePath": "sprites\\b_venus\\b_venus.yy",
+                "resourcePath": "sprites\\planet_venus\\planet_venus.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "2fc81c4d-c7cf-4173-a06c-761b24161567",
-            "Value": {
-                "id": "61369aa8-6322-4530-8579-bc3ea0c5aff1",
-                "resourcePath": "sprites\\b_yellow\\b_yellow.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "3e6f4998-14c6-47cd-947f-12e30af7e136",
             "Value": {
                 "id": "67f87e48-a53d-4671-a74b-86af8d7c8b37",
@@ -146,7 +138,7 @@
             "Key": "4f2023b9-6459-4614-b316-1e272f12b4fb",
             "Value": {
                 "id": "67e21985-1a19-4ba3-827e-7e0482dec79b",
-                "resourcePath": "sprites\\b_neptune\\b_neptune.yy",
+                "resourcePath": "sprites\\planet_neptune\\planet_neptune.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -178,7 +170,7 @@
             "Key": "6c7c2019-a1cf-46ad-8993-a02808ca2647",
             "Value": {
                 "id": "48caa084-3817-463e-a5a8-e19b2a09810c",
-                "resourcePath": "sprites\\b_mars\\b_mars.yy",
+                "resourcePath": "sprites\\planet_mars\\planet_mars.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -218,7 +210,7 @@
             "Key": "976fd99e-0afa-40ab-8f00-c8da905ae234",
             "Value": {
                 "id": "3b4f7b59-044d-4683-9068-465503b24f09",
-                "resourcePath": "sprites\\b_mercury\\b_mercury.yy",
+                "resourcePath": "sprites\\planet_mercury\\planet_mercury.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -258,7 +250,7 @@
             "Key": "af34dd12-9839-4098-842b-4e76e2ad9219",
             "Value": {
                 "id": "34270e9e-c0db-4dce-8f0b-eee8b2c9bef5",
-                "resourcePath": "sprites\\b_saturn\\b_saturn.yy",
+                "resourcePath": "sprites\\planet_saturn\\planet_saturn.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -314,7 +306,7 @@
             "Key": "c42fd56a-d258-4978-9d14-9664b7b0b398",
             "Value": {
                 "id": "3f527266-7d31-42c8-8518-30aa60907d0f",
-                "resourcePath": "sprites\\b_uranus\\b_uranus.yy",
+                "resourcePath": "sprites\\planet_uranus\\planet_uranus.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -394,7 +386,7 @@
             "Key": "ef27f97b-9b98-40c6-b28c-2b0d1baa7502",
             "Value": {
                 "id": "3cc4a18c-d304-4fb8-b95f-582a6a412cff",
-                "resourcePath": "sprites\\b_jupiter\\b_jupiter.yy",
+                "resourcePath": "sprites\\planet_jupiter\\planet_jupiter.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -418,7 +410,7 @@
             "Key": "f623fa7b-0f55-4205-b752-664fa8f9ec85",
             "Value": {
                 "id": "077a2da0-b55f-4819-86a9-a071f2fed9d3",
-                "resourcePath": "sprites\\b_earth\\b_earth.yy",
+                "resourcePath": "sprites\\planet_earth\\planet_earth.yy",
                 "resourceType": "GMSprite"
             }
         }
