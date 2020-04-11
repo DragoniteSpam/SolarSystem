@@ -13,14 +13,19 @@ gpu_set_zwriteenable(true);
 
 var b = buffer_load("starbox.dat");
 stars = vertex_create_buffer_from_buffer(b, vertex_format);
+buffer_delete(b);
 var b = buffer_load("sphere.dat");
 sphere = vertex_create_buffer_from_buffer(b, vertex_format);
+buffer_delete(b);
 var b = buffer_load("jupiter.dat");
 s_jupiter = vertex_create_buffer_from_buffer(b, vertex_format);
+buffer_delete(b);
 var b = buffer_load("neptune.dat");
 s_neptune = vertex_create_buffer_from_buffer(b, vertex_format);
+buffer_delete(b);
 var b = buffer_load("saturn.dat");
 s_saturn = vertex_create_buffer_from_buffer(b, vertex_format);
+buffer_delete(b);
 
 tex_yellow = sprite_get_texture(b_yellow, 0);
 
