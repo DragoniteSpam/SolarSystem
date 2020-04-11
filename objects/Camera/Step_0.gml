@@ -14,7 +14,7 @@ if (keyboard_check(vk_shift)) {
 }
 
 if (keyboard_check(vk_control)) {
-    mspd *= 0.5;
+    mspd *= 0.25;
 }
 
 // Camera look/rotation in 3 dimensions
