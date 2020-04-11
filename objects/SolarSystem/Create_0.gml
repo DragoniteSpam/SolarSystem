@@ -1,23 +1,26 @@
 t = 0;
 
+vertex_format_begin();
+vertex_format_add_position_3d();
+vertex_format_add_normal();
+vertex_format_add_texcoord();
+vertex_format_add_color();
+vertex_format = vertex_format_end();
+
 d3d_start();
 d3d_set_culling(true);
 d3d_set_hidden(true);
 
-stars = d3d_model_create();
-d3d_model_load(stars, ".\\starbox.d3d");
-
-sphere = d3d_model_create();
-d3d_model_load(sphere, ".\\sphere.d3d");
-
-s_jupiter = d3d_model_create();
-d3d_model_load(s_jupiter, ".\\jupiter.d3d");
-
-s_neptune = d3d_model_create();
-d3d_model_load(s_neptune, ".\\neptune.d3d");
-
-s_saturn = d3d_model_create();
-d3d_model_load(s_saturn, ".\\saturn.d3d");
+var b = buffer_load("starbox.dat");
+stars = vertex_create_buffer_from_buffer(b, vertex_format);
+var b = buffer_load("sphere.dat");
+sphere = vertex_create_buffer_from_buffer(b, vertex_format);
+var b = buffer_load("jupiter.dat");
+s_jupiter = vertex_create_buffer_from_buffer(b, vertex_format);
+var b = buffer_load("neptune.dat");
+s_neptune = vertex_create_buffer_from_buffer(b, vertex_format);
+var b = buffer_load("saturn.dat");
+s_saturn = vertex_create_buffer_from_buffer(b, vertex_format);
 
 tex_yellow = sprite_get_texture(b_yellow, 0);
 tex_red = sprite_get_texture(b_red, 0);

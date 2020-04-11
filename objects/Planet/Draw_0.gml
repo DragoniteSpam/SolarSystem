@@ -8,5 +8,5 @@ d3d_transform_add_rotation_z(d);
 d3d_transform_add_rotation_x(tilt);
 d3d_transform_add_rotation_y(tilt);
 d3d_transform_add_translation(x, y, z);
-d3d_model_draw(model, 0, 0, 0, texture);
+vertex_submit(model, pr_trianglelist, texture);
 d3d_transform_set_identity();
