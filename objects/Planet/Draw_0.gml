@@ -3,10 +3,9 @@
 // Venus' cases
 
 var d = SolarSystem.t * 3.6 / day;
-d3d_transform_set_scaling(radius, radius, radius);
-d3d_transform_add_rotation_z(d);
-d3d_transform_add_rotation_x(tilt);
-d3d_transform_add_rotation_y(tilt);
-d3d_transform_add_translation(x, y, z);
+var matrix = matrix_build(0, 0, 0, 0, 0, d, radius, radius, radius);
+matrix = matrix_multiply(matrix, matrix_build(0, 0, 0, tilt, tilt, 0, 1, 1, 1));
+matrix = matrix_multiply(matrix, matrix_build(x, y, z, 0, 0, 0, 1, 1, 1));
+matrix_set(matrix_world, matrix);
 vertex_submit(model, pr_trianglelist, texture);
-d3d_transform_set_identity();
+matrix_set(matrix_world, matrix_build_identity());
