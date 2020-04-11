@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "bf9ee11f-17a8-4edc-a0c4-4417b34221cd",
+            "Value": {
+                "id": "2a145008-e169-4ebd-a15d-900098b5a9e9",
+                "resourcePath": "shaders\\shd_sun\\shd_sun.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "c148c9b6-e73e-4dec-b575-0f82fb0e252b",
             "Value": {
                 "id": "499d1d22-c6cb-4a9b-a658-77cd70fc3317",
@@ -351,6 +359,14 @@
             }
         },
         {
+            "Key": "d2d16e5c-3087-4e12-90be-94120a6cb595",
+            "Value": {
+                "id": "3e642edf-5e9d-4c3d-8d8a-f6e5ae131978",
+                "resourcePath": "sprites\\spr_displacement\\spr_displacement.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d3ea6dfb-bbdc-4678-b9fb-175c4415617d",
             "Value": {
                 "id": "b1edaa5e-6795-4a30-ac02-f5c791c368e2",
@@ -364,6 +380,14 @@
                 "id": "405b55ff-93d5-44e0-8657-628d6d7305d6",
                 "resourcePath": "views\\d57e0b6d-c119-449c-aaa7-69b51df34fb3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e244b451-aa23-42e1-a28d-b8fdc691b78d",
+            "Value": {
+                "id": "82c6963a-4b12-472b-923a-77c7ee478cfe",
+                "resourcePath": "sprites\\spr_sun\\spr_sun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
