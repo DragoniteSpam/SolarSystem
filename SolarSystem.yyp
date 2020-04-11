@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "16fe9f5b-aefd-4149-b9cb-6d94897b2e39",
+            "Value": {
+                "id": "0e45bfa5-c666-4bef-9d7d-9780009e70c2",
+                "resourcePath": "shaders\\shd_solar_system\\shd_solar_system.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "1d5c3290-0de0-443f-8786-bf5b2f6487ce",
             "Value": {
                 "id": "3a4d2d17-4bff-4751-b9d9-c92cc7c9a68e",
