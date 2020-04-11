@@ -3,5 +3,7 @@ camera_set_view_mat(camera, matrix_build_lookat(x, y, z, x + cos(degtorad(direct
 camera_set_proj_mat(camera, matrix_build_projection_perspective_fov(60, window_get_width() / window_get_height(), 1, 32000));
 camera_apply(camera);
 
+shader_set(shd_solar_system);
 with (SolarSystem) event_perform(ev_draw, 0);
 with (Planet) event_perform(ev_draw, 0);
+shader_reset();

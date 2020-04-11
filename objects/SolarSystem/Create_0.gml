@@ -3,9 +3,6 @@ t = 0;
 d3d_start();
 d3d_set_culling(true);
 d3d_set_hidden(true);
-d3d_set_lighting(true);
-d3d_light_define_direction(1, 0, 0, 0, c_white);
-d3d_light_enable(0, true);
 
 stars = d3d_model_create();
 d3d_model_load(stars, ".\\starbox.d3d");

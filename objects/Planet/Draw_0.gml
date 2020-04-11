@@ -3,7 +3,6 @@
 // Venus' cases
 
 var d = SolarSystem.t * 3.6 / day;
-d3d_light_define_direction(0, x, y, 0, c_white);
 d3d_transform_set_scaling(radius, radius, radius);
 d3d_transform_add_rotation_z(d);
 d3d_transform_add_rotation_x(tilt);
