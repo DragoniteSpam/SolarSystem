@@ -1,4 +1,5 @@
 t = 0;
+sim_speed = 1;
 
 vertex_format_begin();
 vertex_format_add_position_3d();
