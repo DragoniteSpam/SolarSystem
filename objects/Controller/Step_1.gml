@@ -137,7 +137,7 @@ pleft = pleft || MatchCardinalDirection(dpad_angle, _u, Directions.west);
 pright = pright || MatchCardinalDirection(dpad_angle, _u, Directions.east);
 rs_x = rs_x + clamp((window_mouse_get_x() - window_get_width() / 2) / 50, -1, 1);
 rs_y = rs_y - clamp((window_mouse_get_y() - window_get_height() / 2) / 50, -1, 1);
-centerCursor();
+window_mouse_set(window_get_width() / 2, window_get_height() / 2);
 rs_angle = rs_angle + GetStickAngle(rs_x, rs_y);
 rs_magnitude = min(rs_magnitude + GetStickMagnitude(rs_x, rs_y), 1);
 rup = rup || MatchCardinalDirection(rs_angle, rs_magnitude, Directions.north);

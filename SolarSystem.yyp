@@ -10,7 +10,6 @@
     {"id":{"name":"planet_mars","path":"sprites/planet_mars/planet_mars.yy",},"order":7,},
     {"id":{"name":"spr_displacement","path":"sprites/spr_displacement/spr_displacement.yy",},"order":1,},
     {"id":{"name":"spr_sun","path":"sprites/spr_sun/spr_sun.yy",},"order":2,},
-    {"id":{"name":"library_code","path":"scripts/library_code/library_code.yy",},"order":2,},
     {"id":{"name":"planet","path":"scripts/planet/planet.yy",},"order":1,},
     {"id":{"name":"shd_solar_system","path":"shaders/shd_solar_system/shd_solar_system.yy",},"order":0,},
     {"id":{"name":"shd_sun","path":"shaders/shd_sun/shd_sun.yy",},"order":1,},
