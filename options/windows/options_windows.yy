@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "The Solar System",
   "option_windows_executable_name": "${project_name}",
-  "option_windows_version": "1.1.0.9",
+  "option_windows_version": "1.2.0.10",
   "option_windows_company_info": "",
   "option_windows_product_info": "",
   "option_windows_copyright_info": "",
