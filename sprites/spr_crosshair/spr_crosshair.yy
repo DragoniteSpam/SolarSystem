@@ -69,8 +69,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"18baaecd-b97d-42da-96d9-2528375d344f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "images",
+    "path": "folders/images.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_crosshair",

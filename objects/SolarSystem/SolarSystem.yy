@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "data",
+    "path": "folders/data.yy",
   },
   "resourceVersion": "1.0",
   "name": "SolarSystem",

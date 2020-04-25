@@ -70,7 +70,7 @@
   ],
   "parent": {
     "name": "planet maps",
-    "path": "folders/Sprites/planet maps.yy",
+    "path": "folders/images/planet maps.yy",
   },
   "resourceVersion": "1.0",
   "name": "planet_venus",

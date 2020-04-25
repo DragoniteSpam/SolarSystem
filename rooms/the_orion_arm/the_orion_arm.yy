@@ -39,11 +39,11 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "data",
+    "path": "folders/data.yy",
   },
   "resourceVersion": "1.0",
-  "name": "room0",
+  "name": "the_orion_arm",
   "tags": [],
   "resourceType": "GMRoom",
 }
