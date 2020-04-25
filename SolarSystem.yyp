@@ -1,426 +1,66 @@
 {
-    "id": "6b938486-4738-4565-8a1c-29940f21e058",
-    "modelName": "GMProject",
-    "mvc": "1.0",
-    "IsDnDProject": false,
-    "configs": [
-        
-    ],
-    "option_ecma": false,
-    "parentProject": {
-        "id": "fdd90a65-6b66-40f1-9561-cf0cfabd8893",
-        "modelName": "GMProjectParent",
-        "mvc": "1.0",
-        "alteredResources": [
-            {
-                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
-                "Value": {
-                    "configDeltas": [
-                        "inherited"
-                    ],
-                    "id": "c0c29123-ccb7-42ee-8682-14c1e1ed6223",
-                    "resourcePath": "options\\main\\options_main.yy",
-                    "resourceType": "GMMainOptions"
-                }
-            }
-        ],
-        "hiddenResources": [
-            
-        ],
-        "projectPath": "${base_project}"
-    },
-    "resources": [
-        {
-            "Key": "052eb7d2-c4cf-42ea-845c-f9f49db8ef8f",
-            "Value": {
-                "id": "824effde-ad2a-446b-b136-be1e09a18089",
-                "resourcePath": "views\\052eb7d2-c4cf-42ea-845c-f9f49db8ef8f.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "06607922-50c1-48e2-919a-d73d9429b404",
-            "Value": {
-                "id": "3850eb71-705c-435c-9193-94b033f2d3ab",
-                "resourcePath": "scripts\\new_planet\\new_planet.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "0d4b7a67-77bb-408a-adb9-871c4e87a994",
-            "Value": {
-                "id": "ce9895dc-5860-43d8-b696-69ffbd7a6de8",
-                "resourcePath": "datafiles_yy\\sphere.dat.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "127e00ba-5c40-44cc-8d5d-085b04f5be1b",
-            "Value": {
-                "id": "f8092ae5-d160-41e1-b8c4-1d43e2e76b06",
-                "resourcePath": "sprites\\planet_venus\\planet_venus.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "162c5d86-882d-4905-9201-336f8c53dfb9",
-            "Value": {
-                "id": "2c031e30-8cdb-440d-93d7-7ae72f8d5867",
-                "resourcePath": "views\\162c5d86-882d-4905-9201-336f8c53dfb9.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "16e1207c-4215-4402-96e6-4bb0459a310a",
-            "Value": {
-                "id": "8c71ea0b-1832-4a00-bc8a-ed582b1f623e",
-                "resourcePath": "scripts\\GetStickMagnitude\\GetStickMagnitude.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "16fe9f5b-aefd-4149-b9cb-6d94897b2e39",
-            "Value": {
-                "id": "0e45bfa5-c666-4bef-9d7d-9780009e70c2",
-                "resourcePath": "shaders\\shd_solar_system\\shd_solar_system.yy",
-                "resourceType": "GMShader"
-            }
-        },
-        {
-            "Key": "22e3277e-8722-4ba1-80da-9a2738e80c97",
-            "Value": {
-                "id": "40857892-2f8e-40a3-887c-47ac89ae8385",
-                "resourcePath": "views\\22e3277e-8722-4ba1-80da-9a2738e80c97.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "23178631-3b36-4d95-acb1-d835cbea447a",
-            "Value": {
-                "id": "afb5a969-f525-4478-8d14-da2469f69541",
-                "resourcePath": "rooms\\room0\\room0.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "3e6f4998-14c6-47cd-947f-12e30af7e136",
-            "Value": {
-                "id": "67f87e48-a53d-4671-a74b-86af8d7c8b37",
-                "resourcePath": "scripts\\GetStickAngle\\GetStickAngle.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "42b135e2-a955-42a0-9fcd-87b76b3c031a",
-            "Value": {
-                "id": "23b6c22e-0646-4b90-86de-9703411f7534",
-                "resourcePath": "views\\42b135e2-a955-42a0-9fcd-87b76b3c031a.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "441a86bb-19e0-48cd-bd5b-34c41ac7b62c",
-            "Value": {
-                "id": "66d4edc6-68d6-4468-9ec4-b141cdda2a92",
-                "resourcePath": "views\\441a86bb-19e0-48cd-bd5b-34c41ac7b62c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "4debb558-351f-4552-a631-93a2e50089f0",
-            "Value": {
-                "id": "7365f569-ae71-4f59-80a8-64c2bc3cc87d",
-                "resourcePath": "views\\4debb558-351f-4552-a631-93a2e50089f0.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "4f2023b9-6459-4614-b316-1e272f12b4fb",
-            "Value": {
-                "id": "67e21985-1a19-4ba3-827e-7e0482dec79b",
-                "resourcePath": "sprites\\planet_neptune\\planet_neptune.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "540443c7-be83-490f-8d73-a92d8e928f47",
-            "Value": {
-                "id": "027e02b9-14e5-4a8a-a43e-cb7e9e5fdf54",
-                "resourcePath": "scripts\\centerCursor\\centerCursor.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "596d83b9-8958-4a3a-9baa-054e45aa5540",
-            "Value": {
-                "id": "06d73609-ebda-4bf3-a3cc-986398d34598",
-                "resourcePath": "views\\596d83b9-8958-4a3a-9baa-054e45aa5540.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "6b5b4026-9e79-4b72-b754-e072555ae2e0",
-            "Value": {
-                "id": "eef43ca6-d76e-4538-a57a-57a7df280cdf",
-                "resourcePath": "views\\6b5b4026-9e79-4b72-b754-e072555ae2e0.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "6c7c2019-a1cf-46ad-8993-a02808ca2647",
-            "Value": {
-                "id": "48caa084-3817-463e-a5a8-e19b2a09810c",
-                "resourcePath": "sprites\\planet_mars\\planet_mars.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "89e5b5e0-a74d-4bd1-a867-4ec5c0437ec2",
-            "Value": {
-                "id": "32d352bf-7221-4493-9dd7-59f64c91e8f1",
-                "resourcePath": "objects\\Planet\\Planet.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8efaf7cb-db54-4028-9bf2-18d9990c6f7c",
-            "Value": {
-                "id": "693db286-5dda-47ed-a044-ae9033bee73d",
-                "resourcePath": "datafiles_yy\\starbox.dat.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "940dbf25-a69e-4cb0-9dcc-0a3dd9cc25f7",
-            "Value": {
-                "id": "bf339c37-336c-485c-b868-1baaf397b228",
-                "resourcePath": "datafiles_yy\\saturn.dat.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "95fedcec-8fef-4b1d-8d8d-7d276b90072f",
-            "Value": {
-                "id": "0ca2d575-784d-4e3f-9f4a-e4b3ff715196",
-                "resourcePath": "views\\95fedcec-8fef-4b1d-8d8d-7d276b90072f.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "976fd99e-0afa-40ab-8f00-c8da905ae234",
-            "Value": {
-                "id": "3b4f7b59-044d-4683-9068-465503b24f09",
-                "resourcePath": "sprites\\planet_mercury\\planet_mercury.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a3fa8a7f-b0f4-4052-879f-2517b88384b4",
-            "Value": {
-                "id": "9daff7c9-2909-4645-82c0-3cc3f9116119",
-                "resourcePath": "views\\a3fa8a7f-b0f4-4052-879f-2517b88384b4.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a7f2f88d-dac1-4943-93de-a11291d5f5ce",
-            "Value": {
-                "id": "da64ca99-45e6-4040-b10f-9431a7c12456",
-                "resourcePath": "views\\a7f2f88d-dac1-4943-93de-a11291d5f5ce.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
-            "Value": {
-                "id": "859a6405-5dab-4d82-91cd-85d69f8cc085",
-                "resourcePath": "options\\linux\\options_linux.yy",
-                "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "aaabd890-7909-4cb7-8c0a-42db4750fdf5",
-            "Value": {
-                "id": "0333dc1e-7e31-4eff-97e3-27b1f6d2fa6d",
-                "resourcePath": "objects\\SolarSystem\\SolarSystem.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "af34dd12-9839-4098-842b-4e76e2ad9219",
-            "Value": {
-                "id": "34270e9e-c0db-4dce-8f0b-eee8b2c9bef5",
-                "resourcePath": "sprites\\planet_saturn\\planet_saturn.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "afe098e3-9f35-4fb9-90bd-b42d68af0e8e",
-            "Value": {
-                "id": "db50d20c-68d5-47f7-b7f3-0a3cc06cfacb",
-                "resourcePath": "views\\afe098e3-9f35-4fb9-90bd-b42d68af0e8e.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b582fefc-888d-493e-bd5e-785d0e8950d6",
-            "Value": {
-                "id": "3dfae029-aedb-44c9-a6a4-dbe86ee532c7",
-                "resourcePath": "objects\\Camera\\Camera.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "bb94fd84-6ddb-4480-afdd-9482210de1b9",
-            "Value": {
-                "id": "9986f788-36ce-4c7b-9c0d-aca12bd53a45",
-                "resourcePath": "views\\bb94fd84-6ddb-4480-afdd-9482210de1b9.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "bf9ee11f-17a8-4edc-a0c4-4417b34221cd",
-            "Value": {
-                "id": "2a145008-e169-4ebd-a15d-900098b5a9e9",
-                "resourcePath": "shaders\\shd_sun\\shd_sun.yy",
-                "resourceType": "GMShader"
-            }
-        },
-        {
-            "Key": "c148c9b6-e73e-4dec-b575-0f82fb0e252b",
-            "Value": {
-                "id": "499d1d22-c6cb-4a9b-a658-77cd70fc3317",
-                "resourcePath": "views\\c148c9b6-e73e-4dec-b575-0f82fb0e252b.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c3cf1469-c410-49a7-8589-6f7ba7edbf76",
-            "Value": {
-                "id": "f9d40abd-1a17-453f-befe-be451e7a5d7d",
-                "resourcePath": "views\\c3cf1469-c410-49a7-8589-6f7ba7edbf76.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c42fd56a-d258-4978-9d14-9664b7b0b398",
-            "Value": {
-                "id": "3f527266-7d31-42c8-8518-30aa60907d0f",
-                "resourcePath": "sprites\\planet_uranus\\planet_uranus.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c7a10681-b5c6-47bf-86be-278361b99db4",
-            "Value": {
-                "id": "5dd6386e-1e00-4c7c-87a6-5fde3839d112",
-                "resourcePath": "views\\c7a10681-b5c6-47bf-86be-278361b99db4.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c7ea2235-454a-491f-8ded-5ba95b04a0a2",
-            "Value": {
-                "id": "7c1868e0-0e41-4e0d-92bf-48b882ea2e6d",
-                "resourcePath": "datafiles_yy\\neptune.dat.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "c89902c1-a457-4376-bb19-deaa095ba7f3",
-            "Value": {
-                "id": "089ea217-ae32-4ac7-ae0d-29866c3253de",
-                "resourcePath": "views\\c89902c1-a457-4376-bb19-deaa095ba7f3.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
-            "Value": {
-                "id": "e0a1de22-ecdd-4b39-8412-e0eb4afab7a6",
-                "resourcePath": "options\\windows\\options_windows.yy",
-                "resourceType": "GMWindowsOptions"
-            }
-        },
-        {
-            "Key": "cfdcc946-86de-440d-ac40-dd7b3a580246",
-            "Value": {
-                "id": "6cebb144-31cd-4253-8849-7033e175757c",
-                "resourcePath": "objects\\Controller\\Controller.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "d2d16e5c-3087-4e12-90be-94120a6cb595",
-            "Value": {
-                "id": "3e642edf-5e9d-4c3d-8d8a-f6e5ae131978",
-                "resourcePath": "sprites\\spr_displacement\\spr_displacement.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d3ea6dfb-bbdc-4678-b9fb-175c4415617d",
-            "Value": {
-                "id": "b1edaa5e-6795-4a30-ac02-f5c791c368e2",
-                "resourcePath": "scripts\\MatchCardinalDirection\\MatchCardinalDirection.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "d57e0b6d-c119-449c-aaa7-69b51df34fb3",
-            "Value": {
-                "id": "405b55ff-93d5-44e0-8657-628d6d7305d6",
-                "resourcePath": "views\\d57e0b6d-c119-449c-aaa7-69b51df34fb3.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e244b451-aa23-42e1-a28d-b8fdc691b78d",
-            "Value": {
-                "id": "82c6963a-4b12-472b-923a-77c7ee478cfe",
-                "resourcePath": "sprites\\spr_sun\\spr_sun.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ef27f97b-9b98-40c6-b28c-2b0d1baa7502",
-            "Value": {
-                "id": "3cc4a18c-d304-4fb8-b95f-582a6a412cff",
-                "resourcePath": "sprites\\planet_jupiter\\planet_jupiter.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "efa0fed1-e029-40fc-a65a-33cf8c5be5e4",
-            "Value": {
-                "id": "38da9ce9-c656-4290-8322-5c57d496fd90",
-                "resourcePath": "datafiles_yy\\jupiter.dat.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
-            "Value": {
-                "id": "55c1b8b9-77e5-4d86-aebf-c16e67222949",
-                "resourcePath": "options\\mac\\options_mac.yy",
-                "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "f623fa7b-0f55-4205-b752-664fa8f9ec85",
-            "Value": {
-                "id": "077a2da0-b55f-4819-86a9-a071f2fed9d3",
-                "resourcePath": "sprites\\planet_earth\\planet_earth.yy",
-                "resourceType": "GMSprite"
-            }
-        }
-    ],
-    "script_order": [
-        "3e6f4998-14c6-47cd-947f-12e30af7e136",
-        "16e1207c-4215-4402-96e6-4bb0459a310a",
-        "d3ea6dfb-bbdc-4678-b9fb-175c4415617d",
-        "540443c7-be83-490f-8d73-a92d8e928f47",
-        "06607922-50c1-48e2-919a-d73d9429b404"
-    ],
-    "tutorial": ""
+  "resources": [
+    {"id":{"name":"planet_mercury","path":"sprites/planet_mercury/planet_mercury.yy",},"order":0,},
+    {"id":{"name":"planet_earth","path":"sprites/planet_earth/planet_earth.yy",},"order":1,},
+    {"id":{"name":"planet_venus","path":"sprites/planet_venus/planet_venus.yy",},"order":2,},
+    {"id":{"name":"planet_uranus","path":"sprites/planet_uranus/planet_uranus.yy",},"order":3,},
+    {"id":{"name":"planet_jupiter","path":"sprites/planet_jupiter/planet_jupiter.yy",},"order":4,},
+    {"id":{"name":"planet_saturn","path":"sprites/planet_saturn/planet_saturn.yy",},"order":5,},
+    {"id":{"name":"planet_neptune","path":"sprites/planet_neptune/planet_neptune.yy",},"order":6,},
+    {"id":{"name":"planet_mars","path":"sprites/planet_mars/planet_mars.yy",},"order":7,},
+    {"id":{"name":"spr_displacement","path":"sprites/spr_displacement/spr_displacement.yy",},"order":1,},
+    {"id":{"name":"spr_sun","path":"sprites/spr_sun/spr_sun.yy",},"order":2,},
+    {"id":{"name":"library_code","path":"scripts/library_code/library_code.yy",},"order":2,},
+    {"id":{"name":"planet","path":"scripts/planet/planet.yy",},"order":1,},
+    {"id":{"name":"shd_solar_system","path":"shaders/shd_solar_system/shd_solar_system.yy",},"order":0,},
+    {"id":{"name":"shd_sun","path":"shaders/shd_sun/shd_sun.yy",},"order":1,},
+    {"id":{"name":"SolarSystem","path":"objects/SolarSystem/SolarSystem.yy",},"order":0,},
+    {"id":{"name":"Controller","path":"objects/Controller/Controller.yy",},"order":1,},
+    {"id":{"name":"Camera","path":"objects/Camera/Camera.yy",},"order":2,},
+    {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},
+  ],
+  "Options": [
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
+  ],
+  "isDnDProject": false,
+  "isEcma": false,
+  "tutorialPath": "",
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrder": [
+    {"name":"room0","path":"rooms/room0/room0.yy",},
+  ],
+  "Folders": [
+    {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/planet maps.yy","order":0,"resourceVersion":"1.0","name":"planet maps","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts.yy","order":3,"resourceVersion":"1.0","name":"Scripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Shaders.yy","order":4,"resourceVersion":"1.0","name":"Shaders","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects.yy","order":5,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms.yy","order":6,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
+  ],
+  "AudioGroups": [
+    {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+  ],
+  "TextureGroups": [
+    {"isScaled":false,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+  ],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"neptune.dat","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"sphere.dat","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"jupiter.dat","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"starbox.dat","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"saturn.dat","resourceType":"GMIncludedFile",},
+  ],
+  "MetaData": {
+    "IDEVersion": "23.1.1.138",
+  },
+  "resourceVersion": "1.3",
+  "name": "SolarSystem",
+  "tags": [],
+  "resourceType": "GMProject",
 }

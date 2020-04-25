@@ -47,12 +47,12 @@ enum Directions {
     southeast       = 315
 }
 
-Mercury = new_planet("Mercury", 0.39, 88, 59, 0.38, 0, sphere, tex_mercury);
-Venus = new_planet("Venus", 0.72, 225, 243, 0.9, 2, sphere, tex_venus);
-Earth = new_planet("Earth", 1, 365, 1, 1, 23, sphere, tex_earth);
-Mars = new_planet("Mars", 1.52, 687, 1, 0.55, 25, sphere, tex_mars);
-
-Jupiter = new_planet("Jupiter", 5.2, 4307, 0.4, 5, 3, s_jupiter, tex_jupiter);
-Saturn = new_planet("Saturn", 9.5, 10767, 0.43, 4, 26, s_saturn, tex_saturn);
-Uranus = new_planet("Uranus", 19.2, 30660, 0.75, 2, 82, s_jupiter, tex_uranus);
-Neptune = new_planet("Neptune", 30, 60152, 0.8, 1.8, 28, s_neptune, tex_neptune);
+planets = ds_list_create();
+ds_list_add(planets, new planet("Mercury",	0.39, 88, 59, 0.38, 0, sphere, tex_mercury));
+ds_list_add(planets, new planet("Venus",	0.72, 225, 243, 0.9, 2, sphere, tex_venus));
+ds_list_add(planets, new planet("Earth",		1, 365, 1, 1, 23, sphere, tex_earth));
+ds_list_add(planets, new planet("Mars",		1.52, 687, 1, 0.55, 25, sphere, tex_mars));
+ds_list_add(planets, new planet("Jupiter",	5.2, 4307, 0.4, 5, 3, s_jupiter, tex_jupiter));
+ds_list_add(planets, new planet("Saturn",	9.5, 10767, 0.43, 4, 26, s_saturn, tex_saturn));
+ds_list_add(planets, new planet("Uranus",	19.2, 30660, 0.75, 2, 82, s_jupiter, tex_uranus));
+ds_list_add(planets, new planet("Neptune",	30, 60152, 0.8, 1.8, 28, s_neptune, tex_neptune));

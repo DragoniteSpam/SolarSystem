@@ -11,9 +11,4 @@ vertex_submit(SolarSystem.stars, pr_trianglelist, -1);
 matrix_set(matrix_world, matrix_build_identity());
 gpu_set_zwriteenable(true);
 
-gpu_set_cullmode(cull_clockwise);
 with (SolarSystem) event_perform(ev_draw, 0);
-shader_set(shd_solar_system);
-gpu_set_cullmode(cull_counterclockwise);
-with (Planet) event_perform(ev_draw, 0);
-shader_reset();
