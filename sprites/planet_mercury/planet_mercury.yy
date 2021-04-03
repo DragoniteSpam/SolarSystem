@@ -1,7 +1,6 @@
 {
   "bboxMode": 0,
   "collisionKind": 1,
-  "separateMasks": false,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -26,7 +25,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"172b6e27-bae3-4a02-9691-bd0ecaf61316","path":"sprites/planet_mercury/planet_mercury.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"172b6e27-bae3-4a02-9691-bd0ecaf61316","path":"sprites/planet_mercury/planet_mercury.yy",},"LayerId":{"name":"6026a686-7dd1-4200-b397-4d6ebf1a503f","path":"sprites/planet_mercury/planet_mercury.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"172b6e27-bae3-4a02-9691-bd0ecaf61316","path":"sprites/planet_mercury/planet_mercury.yy",},"LayerId":{"name":"6026a686-7dd1-4200-b397-4d6ebf1a503f","path":"sprites/planet_mercury/planet_mercury.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"planet_mercury","path":"sprites/planet_mercury/planet_mercury.yy",},"resourceVersion":"1.0","name":"172b6e27-bae3-4a02-9691-bd0ecaf61316","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -68,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6026a686-7dd1-4200-b397-4d6ebf1a503f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "planet maps",
     "path": "folders/images/planet maps.yy",

@@ -1,7 +1,6 @@
 {
   "bboxMode": 0,
   "collisionKind": 1,
-  "separateMasks": false,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -26,7 +25,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"9576d4e0-a627-4906-b4da-e206e9aea5a3","path":"sprites/planet_mars/planet_mars.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9576d4e0-a627-4906-b4da-e206e9aea5a3","path":"sprites/planet_mars/planet_mars.yy",},"LayerId":{"name":"1428621f-139e-4b9c-8e1a-3a3f2a719918","path":"sprites/planet_mars/planet_mars.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"9576d4e0-a627-4906-b4da-e206e9aea5a3","path":"sprites/planet_mars/planet_mars.yy",},"LayerId":{"name":"1428621f-139e-4b9c-8e1a-3a3f2a719918","path":"sprites/planet_mars/planet_mars.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"planet_mars","path":"sprites/planet_mars/planet_mars.yy",},"resourceVersion":"1.0","name":"9576d4e0-a627-4906-b4da-e206e9aea5a3","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -68,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1428621f-139e-4b9c-8e1a-3a3f2a719918","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "planet maps",
     "path": "folders/images/planet maps.yy",

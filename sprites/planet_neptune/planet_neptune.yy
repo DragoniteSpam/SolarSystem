@@ -1,7 +1,6 @@
 {
   "bboxMode": 0,
   "collisionKind": 1,
-  "separateMasks": false,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -26,7 +25,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"ff5b99e5-12b6-445b-be88-e2068aee7d66","path":"sprites/planet_neptune/planet_neptune.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ff5b99e5-12b6-445b-be88-e2068aee7d66","path":"sprites/planet_neptune/planet_neptune.yy",},"LayerId":{"name":"2988a38f-ec68-44ab-919e-2aab2f540402","path":"sprites/planet_neptune/planet_neptune.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"ff5b99e5-12b6-445b-be88-e2068aee7d66","path":"sprites/planet_neptune/planet_neptune.yy",},"LayerId":{"name":"2988a38f-ec68-44ab-919e-2aab2f540402","path":"sprites/planet_neptune/planet_neptune.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"planet_neptune","path":"sprites/planet_neptune/planet_neptune.yy",},"resourceVersion":"1.0","name":"ff5b99e5-12b6-445b-be88-e2068aee7d66","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -68,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2988a38f-ec68-44ab-919e-2aab2f540402","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "planet maps",
     "path": "folders/images/planet maps.yy",

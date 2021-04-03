@@ -1,7 +1,6 @@
 {
   "bboxMode": 0,
   "collisionKind": 1,
-  "separateMasks": false,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -26,7 +25,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"d0cab16a-29e3-4986-8519-e1e8dffbd0bf","path":"sprites/planet_jupiter/planet_jupiter.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d0cab16a-29e3-4986-8519-e1e8dffbd0bf","path":"sprites/planet_jupiter/planet_jupiter.yy",},"LayerId":{"name":"39ba4705-515e-4d2a-9a99-c6163b55ebc0","path":"sprites/planet_jupiter/planet_jupiter.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"d0cab16a-29e3-4986-8519-e1e8dffbd0bf","path":"sprites/planet_jupiter/planet_jupiter.yy",},"LayerId":{"name":"39ba4705-515e-4d2a-9a99-c6163b55ebc0","path":"sprites/planet_jupiter/planet_jupiter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"planet_jupiter","path":"sprites/planet_jupiter/planet_jupiter.yy",},"resourceVersion":"1.0","name":"d0cab16a-29e3-4986-8519-e1e8dffbd0bf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -68,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"39ba4705-515e-4d2a-9a99-c6163b55ebc0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "planet maps",
     "path": "folders/images/planet maps.yy",

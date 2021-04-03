@@ -24,6 +24,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"HTML5","path":"options/html5/options_html5.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -32,8 +33,8 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrder": [
-    {"name":"the_orion_arm","path":"rooms/the_orion_arm/the_orion_arm.yy",},
+  "RoomOrderNodes": [
+    {"roomId":{"name":"the_orion_arm","path":"rooms/the_orion_arm/the_orion_arm.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/images.yy","order":0,"resourceVersion":"1.0","name":"images","tags":[],"resourceType":"GMFolder",},
@@ -41,10 +42,10 @@
     {"folderPath":"folders/data.yy","order":5,"resourceVersion":"1.0","name":"data","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
-    {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":false,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":false,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"neptune.dat","resourceType":"GMIncludedFile",},
@@ -54,9 +55,9 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"saturn.dat","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "23.1.1.138",
+    "IDEVersion": "23.1.1.249",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "SolarSystem",
   "tags": [],
   "resourceType": "GMProject",

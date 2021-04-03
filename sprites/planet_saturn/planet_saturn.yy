@@ -1,7 +1,6 @@
 {
   "bboxMode": 0,
   "collisionKind": 1,
-  "separateMasks": false,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -26,7 +25,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"62f472b2-96cd-420e-932a-84a881328dcc","path":"sprites/planet_saturn/planet_saturn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"62f472b2-96cd-420e-932a-84a881328dcc","path":"sprites/planet_saturn/planet_saturn.yy",},"LayerId":{"name":"57ba8da9-bc07-404c-aa62-ec580a886bc8","path":"sprites/planet_saturn/planet_saturn.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"62f472b2-96cd-420e-932a-84a881328dcc","path":"sprites/planet_saturn/planet_saturn.yy",},"LayerId":{"name":"57ba8da9-bc07-404c-aa62-ec580a886bc8","path":"sprites/planet_saturn/planet_saturn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"planet_saturn","path":"sprites/planet_saturn/planet_saturn.yy",},"resourceVersion":"1.0","name":"62f472b2-96cd-420e-932a-84a881328dcc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -68,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"57ba8da9-bc07-404c-aa62-ec580a886bc8","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "planet maps",
     "path": "folders/images/planet maps.yy",

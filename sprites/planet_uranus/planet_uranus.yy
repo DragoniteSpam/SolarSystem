@@ -1,7 +1,6 @@
 {
   "bboxMode": 0,
   "collisionKind": 1,
-  "separateMasks": false,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -26,7 +25,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"a831ecb3-e2e8-498c-ae3e-2fc0a5396fa2","path":"sprites/planet_uranus/planet_uranus.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a831ecb3-e2e8-498c-ae3e-2fc0a5396fa2","path":"sprites/planet_uranus/planet_uranus.yy",},"LayerId":{"name":"f28c12e0-1504-4056-94a6-94e9b4c879d8","path":"sprites/planet_uranus/planet_uranus.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a831ecb3-e2e8-498c-ae3e-2fc0a5396fa2","path":"sprites/planet_uranus/planet_uranus.yy",},"LayerId":{"name":"f28c12e0-1504-4056-94a6-94e9b4c879d8","path":"sprites/planet_uranus/planet_uranus.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"planet_uranus","path":"sprites/planet_uranus/planet_uranus.yy",},"resourceVersion":"1.0","name":"a831ecb3-e2e8-498c-ae3e-2fc0a5396fa2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -68,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f28c12e0-1504-4056-94a6-94e9b4c879d8","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "planet maps",
     "path": "folders/images/planet maps.yy",
