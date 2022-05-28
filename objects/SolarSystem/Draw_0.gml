@@ -1,7 +1,7 @@
 gpu_set_zwriteenable(false);
 gpu_set_cullmode(cull_noculling);
 
-matrix_set(matrix_world, matrix_build(Camera.x, Camera.y, Camera.z, 0, 0, 0, 1, 1, 1));
+matrix_set(matrix_world, matrix_build(Camera.x, Camera.y, Camera.z, 0, 0, current_time / 10000, 1, 1, 1));
 vertex_submit(self.sphere, pr_trianglelist, sprite_get_texture(spr_milkyway, 0));
 
 gpu_set_zwriteenable(true);
