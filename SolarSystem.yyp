@@ -3,6 +3,7 @@
     {"id":{"name":"planet_mercury","path":"sprites/planet_mercury/planet_mercury.yy",},"order":0,},
     {"id":{"name":"planet_earth","path":"sprites/planet_earth/planet_earth.yy",},"order":1,},
     {"id":{"name":"planet_venus","path":"sprites/planet_venus/planet_venus.yy",},"order":2,},
+    {"id":{"name":"spr_milkyway","path":"sprites/spr_milkyway/spr_milkyway.yy",},"order":4,},
     {"id":{"name":"planet_uranus","path":"sprites/planet_uranus/planet_uranus.yy",},"order":3,},
     {"id":{"name":"planet_jupiter","path":"sprites/planet_jupiter/planet_jupiter.yy",},"order":4,},
     {"id":{"name":"planet_saturn","path":"sprites/planet_saturn/planet_saturn.yy",},"order":5,},
