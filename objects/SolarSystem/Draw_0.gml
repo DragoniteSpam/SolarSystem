@@ -5,7 +5,7 @@ matrix_set(matrix_world, matrix_build(Camera.x, Camera.y, Camera.z, 0, 0, curren
 vertex_submit(self.sphere, pr_trianglelist, sprite_get_texture(spr_milkyway, 0));
 
 gpu_set_zwriteenable(true);
-gpu_set_cullmode(cull_counterclockwise);
+gpu_set_cullmode(cull_clockwise);
 
 shader_set(shd_sun);
 matrix_set(matrix_world, matrix_build(0, 0, 0, 0, 0, 0, 5, 5, 5));
