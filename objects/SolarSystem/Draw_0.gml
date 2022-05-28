@@ -1,10 +1,12 @@
 gpu_set_zwriteenable(false);
+gpu_set_ztestenable(false);
 gpu_set_cullmode(cull_noculling);
 
 matrix_set(matrix_world, matrix_build(Camera.x, Camera.y, Camera.z, 0, 0, current_time / 10000, 1, 1, 1));
 vertex_submit(self.sphere, pr_trianglelist, sprite_get_texture(spr_milkyway, 0));
 
 gpu_set_zwriteenable(true);
+gpu_set_ztestenable(true);
 gpu_set_cullmode(cull_clockwise);
 
 shader_set(shd_sun);
@@ -17,6 +19,7 @@ vertex_submit(self.sphere, pr_trianglelist, sprite_get_texture(spr_sun, 0));
 
 matrix_set(matrix_world, matrix_build_identity());
 shader_set(shd_solar_system);
+gpu_set_cullmode(cull_counterclockwise);
 
 for (var i = 0, n = ds_list_size(self.planets); i < n; i++) {
 	self.planets[| i].draw(self.t);
