@@ -1,0 +1,5 @@
+Image maps for the planets are public domain images from NASA's image archive.
+
+Image map for the Milky Way is from the European Southern Observatory, taken by Serge Brunier.
+Source: https://www.eso.org/public/images/eso0932a/
+License: https://creativecommons.org/licenses/by/4.0/
