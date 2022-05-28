@@ -24,7 +24,7 @@
   "gridX": 1,
   "gridY": 1,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"427759d8-6877-4e09-918a-97ff9ac5842e","path":"sprites/spr_crosshair/spr_crosshair.yy",},"LayerId":null,"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+    {"compositeImage":{"FrameId":{"name":"427759d8-6877-4e09-918a-97ff9ac5842e","path":"sprites/spr_crosshair/spr_crosshair.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"427759d8-6877-4e09-918a-97ff9ac5842e","path":"sprites/spr_crosshair/spr_crosshair.yy",},"LayerId":{"name":"18baaecd-b97d-42da-96d9-2528375d344f","path":"sprites/spr_crosshair/spr_crosshair.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_crosshair","path":"sprites/spr_crosshair/spr_crosshair.yy",},"resourceVersion":"1.0","name":"427759d8-6877-4e09-918a-97ff9ac5842e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
@@ -42,7 +42,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"1fc668de-22a8-4b46-849d-44e366b6c4c4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"427759d8-6877-4e09-918a-97ff9ac5842e","path":"sprites/spr_crosshair/spr_crosshair.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": true,
@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_crosshair","path":"sprites/spr_crosshair/spr_crosshair.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_crosshair",
     "tags": [],
     "resourceType": "GMSequence",
