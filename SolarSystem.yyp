@@ -57,7 +57,6 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"neptune.dat","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"sphere.dat","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"jupiter.dat","resourceType":"GMIncludedFile",},
-    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"starbox.dat","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"saturn.dat","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {

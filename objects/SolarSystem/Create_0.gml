@@ -8,12 +8,6 @@ vertex_format_add_texcoord();
 vertex_format_add_color();
 vertex_format = vertex_format_end();
 
-gpu_set_ztestenable(true);
-gpu_set_zwriteenable(true);
-
-var b = buffer_load("starbox.dat");
-stars = vertex_create_buffer_from_buffer(b, vertex_format);
-buffer_delete(b);
 var b = buffer_load("sphere.dat");
 sphere = vertex_create_buffer_from_buffer(b, vertex_format);
 buffer_delete(b);
