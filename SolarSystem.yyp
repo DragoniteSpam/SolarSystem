@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Changelog","path":"notes/Changelog/Changelog.yy",},"order":6,},
     {"id":{"name":"planet_mercury","path":"sprites/planet_mercury/planet_mercury.yy",},"order":0,},
     {"id":{"name":"planet_earth","path":"sprites/planet_earth/planet_earth.yy",},"order":1,},
     {"id":{"name":"planet_venus","path":"sprites/planet_venus/planet_venus.yy",},"order":2,},

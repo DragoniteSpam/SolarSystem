@@ -1,0 +1,4 @@
+# Changes since 1.2.0.10
+
+ - The program is now a 64-bit executable
+ - Replaced the starfield with a texture map of the Milky Way
