@@ -1,0 +1,23 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Changelog","order":6,"path":"notes/Changelog/Changelog.yy",},
+    {"name":"Camera","order":2,"path":"objects/Camera/Camera.yy",},
+    {"name":"Controller","order":1,"path":"objects/Controller/Controller.yy",},
+    {"name":"the_orion_arm","order":3,"path":"rooms/the_orion_arm/the_orion_arm.yy",},
+    {"name":"planet","order":4,"path":"scripts/planet/planet.yy",},
+    {"name":"shd_solar_system","order":5,"path":"shaders/shd_solar_system/shd_solar_system.yy",},
+    {"name":"shd_sun","order":6,"path":"shaders/shd_sun/shd_sun.yy",},
+    {"name":"planet_earth","order":1,"path":"sprites/planet_earth/planet_earth.yy",},
+    {"name":"planet_jupiter","order":4,"path":"sprites/planet_jupiter/planet_jupiter.yy",},
+    {"name":"planet_mars","order":7,"path":"sprites/planet_mars/planet_mars.yy",},
+    {"name":"planet_neptune","order":6,"path":"sprites/planet_neptune/planet_neptune.yy",},
+    {"name":"planet_saturn","order":5,"path":"sprites/planet_saturn/planet_saturn.yy",},
+    {"name":"planet_uranus","order":3,"path":"sprites/planet_uranus/planet_uranus.yy",},
+    {"name":"planet_venus","order":2,"path":"sprites/planet_venus/planet_venus.yy",},
+    {"name":"spr_crosshair","order":1,"path":"sprites/spr_crosshair/spr_crosshair.yy",},
+    {"name":"spr_displacement","order":2,"path":"sprites/spr_displacement/spr_displacement.yy",},
+    {"name":"spr_milkyway","order":4,"path":"sprites/spr_milkyway/spr_milkyway.yy",},
+    {"name":"spr_sun","order":3,"path":"sprites/spr_sun/spr_sun.yy",},
+  ],
+}

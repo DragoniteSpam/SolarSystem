@@ -1,12 +1,13 @@
 {
-  "isDnD": false,
-  "isCompatibility": false,
-  "parent": {
-    "name": "data",
-    "path": "folders/data.yy",
+  "$GMScript":"v1",
+  "%Name":"planet",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"planet",
+  "parent":{
+    "name":"data",
+    "path":"folders/data.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "planet",
-  "tags": [],
-  "resourceType": "GMScript",
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
